@@ -1,8 +1,5 @@
 $(document).ready(function(){
-
 //When button is clicked, supply new fact from list in the h3.
-	
-
 	var facts = [
 	  "Ants stretch when they wake up in the morning.", 
 	  "Ostriches can run faster than horses.", 
@@ -22,5 +19,4 @@ $(document).ready(function(){
 		$("#anotherfact").append(fact);
 		//Fix me
 	});
-
 });
