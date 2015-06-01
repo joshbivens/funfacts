@@ -1,0 +1,23 @@
+{
+  "name": "funfacts",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joshbivens/funfacts",
+  "authors": [
+    "Josh Bivens <hotbioform@gmail.com>"
+  ],
+  "description": "An page that displays a random fact from an array when a button is clicked",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
