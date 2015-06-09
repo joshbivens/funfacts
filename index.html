@@ -1,25 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>Fun Facts | Bootstrap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/styles.css" rel="stylesheet" media="screen">
-    <script type="text/javascript" src="js/zepto.min.js"></script>
-    <script type="text/javascript" src="js/my-script.js"></script>
+    <title>Fun Facts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container"> 
-      <div class="row">
-        <div class="col-xl-6 lead">    
-          <h2>Did you know?</h2>
-          <h3 id="anotherfact">Ostriches can run faster than horses.</h3></div>
-          <div id="button" class="btn pull-right">Show Another Fun Fact</div><br>
-          <hr>
-          <a href="http://teamtreehouse.com"><p><span class="glyphicon glyphicon-tree-deciduous"></span> Check out Treehouse!</p></a>
-        </div>
-      </div>
+    <div class="wrapper">
+      <section>
+        <h2>Did You Know...?</h2>
+        <p class="fact">Some penguins can leap 2-3 meters out of the water.</p>
+        <button type="button">Another Fact</button>
+      </section>
     </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/my-script.js"></script>
   </body>
 </html>
