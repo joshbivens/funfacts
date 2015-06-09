@@ -2,3 +2,6 @@
 
 ## Bower ##
 /bower_components/
+/config.codekit
+/.codekit-cache/
+/css/.sass-cache/
